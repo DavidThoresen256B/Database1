@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[City]
+(
+	[CityId] INT NOT NULL,
+	[Name] NVARCHAR(100) NOT NULL,
+	[CountryId] INT NOT NULL,
+	[Area] INT NOT NULL,
+	CONSTRAINT CityPK PRIMARY KEY (CityId)
+)
